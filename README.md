@@ -1,33 +1,30 @@
-# Simple Dark Mode for WP Dashboard
+# WP Dashboard Dark Mode
 
-This WordPress plugin enables dark mode to WP-Admin only, for all users. To use, just install and activate.
+WP Dashboard Dark Mode is a refork of the original `simple-dark-mode-for-wp-dashboard` plugin.
 
-The theme tries to respect the original WordPress colors as much as possible.
+Original project and creator:
 
-![](https://i.imgur.com/n9EJEai.png "Screenshot")
+- Original plugin: `https://github.com/ronilaukkarinen/simple-dark-mode-for-wp-dashboard`
+- Original creator: Roni Laukkarinen
 
-## How this is different from all other Dark Mode plugins
+This refork is maintained by `donnyaw` and adapts the plugin for a custom workflow, including a toggle in the top-right admin area and post editor support.
 
-- Fully open source
-- No ads or promoting pro versions
-- Not trying to affect site front-end, this is only for wp-admin
-- No modifying of original WordPress colors, let's keep the brand blue
-- Support for Gutenberg editor and blocks
-- Support for many plugins
+## What It Does
 
-## Supported plugins
+- Applies dark mode to the WordPress admin dashboard
+- Adds a toggle to enable or disable dark mode quickly
+- Supports Gutenberg editor screens
+- Keeps the plugin focused on backend UI only
 
-- Gutenberg editor
-- Yoast SEO
-- Advanced Custom Fields and Advanced Custom Field Pro
-- Simple History
-- Instant Images
-- ActivityPub
+## Refork Notes
+
+- This repository is a public refork, not the original upstream project
+- Credit for the original plugin foundation belongs to Roni Laukkarinen
+- Ongoing customizations in this repository are maintained by `donnyaw`
 
 ## Development
 
-1. Fork this repository
-2. Run `npm install`
-3. Run `gulp`
-4. Start editing assets/scss/
-5. Commit and send a PR
+1. Run `npm install`
+2. Run `gulp`
+3. Edit assets under `assets/scss/`
+4. Commit changes to this repository
